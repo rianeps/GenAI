@@ -18,7 +18,7 @@ def sarc_detect(user_text):
     # return response.text
 
 def show():
-    st.markdown("# Sarcasm Detection in Costumer Reviews")
+    st.markdown("# Sarcasm Detection in Customer Reviews")
     key1 = st.session_state.get("user_text", 1)       
     user_text = st.text_input("Enter your text:", key=key1)
     if st.button("Detect sarcasm"):
