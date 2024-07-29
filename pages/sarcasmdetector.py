@@ -2,7 +2,7 @@ import os
 import streamlit as st
 import google.generativeai as genai
 
-api_key = st.secrets["general"]["API_KEY"]
+api_key = st.secrets["API_KEY"]
 
 
 def sarc_detect(user_text):
