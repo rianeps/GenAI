@@ -2,7 +2,7 @@ import os
 import streamlit as st
 import google.generativeai as genai
 
-api_key = st.secrets["API_KEY"]
+api_key = st.secrets["general"]["API_KEY"]
 
 def poem_generator(user_text):
     genai.configure(api_key=api_key) 
